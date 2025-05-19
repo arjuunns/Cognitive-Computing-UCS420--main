@@ -89,7 +89,7 @@ def custom_tokenizer(text):
     return re.findall(pattern, text, re.VERBOSE)
 
 # Sample text with additional elements for testing
-test_text = text + " Contact me at esingla_be23@thapar.edu or visit https://eshansingla.com. Call +91 9876543210."
+test_text = text + " Contact me at asingh30_be23@thapar.edu or visit https://eshansingla.com. Call +91 9876543210."
 
 # Custom tokenization
 tokens = custom_tokenizer(test_text.lower())
